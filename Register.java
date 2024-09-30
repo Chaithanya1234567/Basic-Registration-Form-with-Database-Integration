@@ -13,9 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 
 public class Register extends HttpServlet 
 {
-	private String db_url="jdbc:mysql://LocalHost:3306/jeepractice"; 
-	private String db_userName="root";
-	private String db_pswd="Chaithu";
+	private String db_url="jdbc:mysql://LocalHost:3306/DB_Name"; 
+	private String db_userName=UserName;
+	private String db_pswd=Password;
 	private Connection con;
 	private PreparedStatement pstmt;
 	@Override
